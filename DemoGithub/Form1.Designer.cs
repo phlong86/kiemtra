@@ -50,6 +50,8 @@
             this.txtusername.Name = "txtusername";
             this.txtusername.Size = new System.Drawing.Size(211, 22);
             this.txtusername.TabIndex = 1;
+            this.txtusername.Text = "PhuocLong";
+            this.txtusername.TextChanged += new System.EventHandler(this.txtusername_TextChanged);
             // 
             // label2
             // 
@@ -66,6 +68,7 @@
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.Size = new System.Drawing.Size(211, 22);
             this.txtpassword.TabIndex = 3;
+            this.txtpassword.Text = "12345";
             // 
             // btnlogin
             // 
@@ -75,6 +78,7 @@
             this.btnlogin.TabIndex = 4;
             this.btnlogin.Text = "login";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // Form1
             // 
